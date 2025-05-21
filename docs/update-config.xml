@@ -11,11 +11,15 @@
 	</base>
 
 	<files>
+		<!-- classpath에 올릴 JAR -->
 		<file uri="automation-racellcrawling-deploy-1.1-SNAPSHOT.jar"
 			path="automation-racellcrawling-deploy-1.1-SNAPSHOT.jar"
-			checksum="SHA-256:5147A176EE70F55F20FC24FF717A451A8D542813DFEDA3FDCF9B7ABE12259173" classpath="true">
+			algorithm="SHA-256"
+			checksum="5147A176EE70F55F20FC24FF717A451A8D542813DFEDA3FDCF9B7ABE12259173"
+			classpath="true">
 		</file>
 	</files>
+
 
 	<launch>
 		<file path="automation-racellcrawling-deploy-1.1-SNAPSHOT.jar" />
