@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration
-    xmlns="http://update4j.org/schema/update-config"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="
+	xmlns="http://update4j.org/schema/update-config"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
         http://update4j.org/schema/update-config
         schema/update-config.xsd">
 
-	<base>https://github.com/s1346s/racellcrawling-update/releases/download/v1.0/</base>
 
-    <files>
-        <file
-            path="automation-racellcrawling-deploy-1.0-SNAPSHOT.jar"
-            target="automation-racellcrawling-deploy-1.0-SNAPSHOT.jar"
-            hash="SHA-256:4A64657A1DCA0BBB08ED389AFD0840206594D26E00C86AC1142731D41A3A9750" />
-    </files>
+	<base>https://github.com/s1346s/racellcrawling-update/releases/download/v1.1/</base>
 
-    <launch>
-        <file>automation-racellcrawling-deploy-1.0-SNAPSHOT.jar</file>
-        <class>com.shj.racellcrawling.ServiceCrawlingApp</class>
-    </launch>
+	<files>
+		<file path="automation-racellcrawling-deploy-1.1-SNAPSHOT.jar"
+			target="automation-racellcrawling-deploy-1.1-SNAPSHOT.jar"
+			hash="SHA-256:2A210CA72A09FC21D6556D7995ED29003962A4E8490B056EF310D816C3DDC93D" />
+	</files>
+
+	<launch>
+		<file>automation-racellcrawling-deploy-1.1-SNAPSHOT.jar</file>
+		<class>com.shj.racellcrawling.ServiceCrawlingApp</class>
+	</launch>
 
 </configuration>
