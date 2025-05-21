@@ -14,7 +14,6 @@
 		<!-- classpath에 올릴 JAR -->
 		<file uri="automation-racellcrawling-deploy-1.1-SNAPSHOT.jar"
 			path="automation-racellcrawling-deploy-1.1-SNAPSHOT.jar"
-			algorithm="SHA-256"
 			classpath="true">
 		</file>
 	</files>
