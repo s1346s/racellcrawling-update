@@ -15,9 +15,8 @@
 			hash="SHA-256:2A210CA72A09FC21D6556D7995ED29003962A4E8490B056EF310D816C3DDC93D" />
 	</files>
 
-	<launch>
-    	<file path="automation-racellcrawling-deploy-1.1-SNAPSHOT.jar"/>
-		<class>com.shj.racellcrawling.ServiceCrawlingApp</class>
-	</launch>
+	<!-- 이 부분을 이렇게 고칩니다 -->
+	<launch file="automation-racellcrawling-deploy-1.1-SNAPSHOT.jar"
+		class="com.shj.racellcrawling.ServiceCrawlingApp" />
 
 </configuration>
