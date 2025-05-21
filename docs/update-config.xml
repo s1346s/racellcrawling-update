@@ -16,7 +16,7 @@
 	</files>
 
 	<launch>
-		<file>automation-racellcrawling-deploy-1.1-SNAPSHOT.jar</file>
+    	<file path="automation-racellcrawling-deploy-1.1-SNAPSHOT.jar"/>
 		<class>com.shj.racellcrawling.ServiceCrawlingApp</class>
 	</launch>
 
